@@ -1,2 +1,2 @@
 FROM martynas/archlinux:latest
-RUN sudo pacman -Sy xmlto inetutils bc cpio
+RUN sudo pacman -Sy xmlto inetutils bc cpio --noconfirm
